@@ -1,0 +1,93 @@
+/* General Page Styling */
+body {
+    background-color: #1e1e30;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Registration Container */
+.register-container {
+    background-color: #2a2a40;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 350px;
+    color: white;
+}
+
+/* Input Fields */
+.name-group, .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.name-group input {
+    width: 48%;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ff4a6e;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+/* Show Password */
+.show-password {
+    color: #ff4a6e;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Terms & Conditions */
+.terms {
+    margin-bottom: 15px;
+}
+
+.terms a {
+    color: #ff4a6e;
+    text-decoration: none;
+}
+
+/* Sign Up Button */
+.signup-btn {
+    background-color: #ff4a6e;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #ff1e4e;
+}
+
+/* Sign In Link */
+.signin-container {
+    margin-top: 15px;
+}
+
+.signin {
+    color: #ff4a6e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin:hover {
+    text-decoration: underline;
+}
